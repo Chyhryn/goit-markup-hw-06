@@ -333,14 +333,14 @@ ul {
   align-items: flex-start;
 }
 
-.modal-field-group:hover .form-field-icon,
-.modal-field-group:focus .form-field-icon {
-  fill: var(--accent-color);
+.modal-form-field:hover,
+.modal-form-field:focus {
+  border-color: var(--accent-color);
 }
 
-.modal-field-group:hover .modal-form-field,
-.modal-field-group:focus .modal-form-field {
-  border-color: var(--accent-color);
+.modal-form-field:hover + .form-field-icon,
+.modal-form-field:focus + .form-field-icon {
+  fill: var(--accent-color);
 }
 
 .modal-field-description {
@@ -403,6 +403,8 @@ ul {
   border-radius: 2px;
 
   fill: var(--secondary-accent-color);
+
+  transition: background-color var(--anim-duration) var(--anim-timing-function);
 }
 
 .modal-checkbox:checked + .check-icon {
@@ -416,7 +418,7 @@ ul {
 }
 
 .modal-terms-link:hover, .modal-terms-link:focus {
-  color: #188ce8
+  color: #188ce8;
 }
 
 .moadal-submit-btn {
