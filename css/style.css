@@ -417,7 +417,8 @@ ul {
   transition: color var(--anim-duration) var(--anim-timing-function);
 }
 
-.modal-terms-link:hover, .modal-terms-link:focus {
+.modal-terms-link:hover,
+.modal-terms-link:focus {
   color: #188ce8;
 }
 
