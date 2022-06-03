@@ -261,6 +261,7 @@ ul {
   transition: transform var(--anim-duration) var(--anim-timing-function);
 
   width: 528px;
+  height: 581px;
 }
 
 .backdrop.is-hidden .modal-wrapper {
@@ -372,7 +373,7 @@ ul {
 
 .modal-text-area-field {
   resize: none;
-  padding: 12px 16px;
+  padding: 12px 16px 10px;
 }
 
 .modal-text-area-field::placeholder {
